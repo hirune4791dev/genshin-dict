@@ -1,4 +1,4 @@
-# 原神辞書（Windows/macOS）
+# 原神辞書（Windows/macOS/棒読みちゃん）
 
 [原神](https://genshin.hoyoverse.com/ja/home)の日本語入力用辞書です。
 人名、地名、装備名などをカバーしています。
