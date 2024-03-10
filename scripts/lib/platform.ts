@@ -26,6 +26,11 @@ export const toMacUserDict = (items: DictItem[]) => {
 export const toKotoeriDict = (items: DictItem[]) => {
   return items.map((item) => `"${item.hiragana}","${item.word}","${item.hinshi}"`).join('\n');
 };
+export const toBouyomiDict = (items: DictItem[]) => {
+  return items
+    .map((item) => `2\tN\t${item.word}\t${item.hiragana}`)
+    .join('\r\n');
+};
 
 export const toWindowsImeDict = (items: DictItem[]) => {
   const hinshiConv = (hinshi: KotoeriHinshi): WindowsImeHinshi => {
