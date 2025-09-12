@@ -54,6 +54,8 @@ export default {
     { hiragana: 'ちょうげきか', word: '超激化' },
     { hiragana: 'そうげきか', word: '草激化' },
     { hiragana: 'つきかんでん', word: '月感電' },
+    { hiragana: 'つきかいか', word: '月開花' },
+    { hiragana: 'そうろ', word: '草露' },
 
     // 聖遺物
     { hiragana: 'かいせい', word: '廻聖' },

@@ -146,17 +146,37 @@ export default {
     { hiragana: 'ぎじぐんせい', word: '擬似群星' },
     { hiragana: 'しこうなるりょうしゅ', word: '至高なる領主' },
     { hiragana: 'すいせきのほこ', word: '燧石の鉾' },
+    { hiragana: 'あしゃ', word: 'アシャ' },
+    { hiragana: 'ぴぴるぱん', word: 'ピピルパン' },
 
-    // スネージナヤ
-    { hiragana: 'ふぁでゅい', word: 'ファデュイ' },
-    { hiragana: 'ふぁとぅす', word: 'ファトゥス' },
+    // ナド・クライ
+    { hiragana: 'くーゔぁき', word: 'クーヴァキ' },
+    { hiragana: 'くーたる', word: 'クータル' },
+    { hiragana: 'るおんのたる', word: 'ルオンノタル' },
+    { hiragana: 'げっしん', word: '月神' },
+    { hiragana: 'げつれい', word: '月霊' },
+    { hiragana: 'げつずい', word: '月髄' },
+    { hiragana: 'きょうげつのぜん', word: '饗月の膳' },
+    { hiragana: 'げっこんせき', word: '月魂石' },
+    { hiragana: 'しょゆのにわ', word: '初諭の庭' },
+    { hiragana: 'えいげつのかがみ', word: '盈月の鏡' },
+    { hiragana: 'くーんるこうす', word: 'クーンルコウス' },
+    { hiragana: 'きげつのよる', word: '祈月の夜' },
+    { hiragana: 'ちょういんせき', word: '潮印石' },
+    { hiragana: 'しきしゃのあかし', word: '識者の証' },
+    { hiragana: 'ふぇい', word: 'フェイ' },
     { hiragana: 'つきのわ', word: '月の輪' },
     { hiragana: 'そうげつのこ', word: '霜月の子' },
+    { hiragana: 'えいげつし', word: '詠月使' },
     { hiragana: 'らいときーぱー', word: 'ライトキーパー' },
     { hiragana: 'わいるどはんと', word: 'ワイルドハント' },
     { hiragana: 'ゔぉいにっちしょうかい', word: 'ヴォイニッチ商会' },
     { hiragana: 'かちゃかちゃくるむかけこうぼう', word: 'カチャカチャ・クルムカケ工房' },
     { hiragana: 'かちゃかちゃ・くるむかけこうぼう', word: 'カチャカチャ・クルムカケ工房' },
+
+    // スネージナヤ
+    { hiragana: 'ふぁでゅい', word: 'ファデュイ' },
+    { hiragana: 'ふぁとぅす', word: 'ファトゥス' },
 
     // カーンルイア
     { hiragana: 'せきげつおうちょう', word: '赤月王朝' },

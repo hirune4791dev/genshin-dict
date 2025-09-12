@@ -6,9 +6,9 @@ export default {
   hinshi: '人名',
   items: [
     // 実装済み・実装予定プレイアブル関係
+    { hiragana: 'すかーく', word: 'スカーク' },
     
     // ゲーム中や漫画に登場するキャラクター
-    { hiragana: 'すかーく', word: 'スカーク' },
     { hiragana: 'ばーべろす', word: 'バーベロス' },
     { hiragana: 'あすとろまんさー・ばーべろす・とりすめぎすとす', word: 'アストロマンサー・バーベロス・トリスメギストス' },
     { hiragana: 'にこ', word: 'ニコ' },
@@ -23,5 +23,6 @@ export default {
     { hiragana: 'なべりうす', word: 'ナベリウス', note: '生の執政' },
     { hiragana: 'あすもだい', word: 'アスモダイ', note: '空の執政' },
     { hiragana: 'にーべるんげん', word: 'ニーベルンゲン' },
+    { hiragana: 'ぱいかもんねん', word: 'パイカモンネン' },
   ]
 } as DictBase;

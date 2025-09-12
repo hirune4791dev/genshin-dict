@@ -57,5 +57,8 @@ export default {
     { hiragana: 'げんえんのあるじ', word: '源焔の主' },
     { hiragana: 'むしばまれしげんえんのあるじ', word: '蝕まれし源焔の主' },
     { hiragana: 'ばくなわ', word: 'バクナワ' },
+    { hiragana: 'ぼこぼこだっく', word: 'ボコボコダック' },
+    { hiragana: 'めかだっく', word: 'メカダック' },
+    { hiragana: 'しゅうこうのげんげつちょう', word: '集光の幻月蝶' },
   ]
 } as DictBase;
