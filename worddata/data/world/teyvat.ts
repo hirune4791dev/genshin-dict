@@ -28,6 +28,7 @@ export default {
     { hiragana: 'そうげつ', word: '霜月' },
     { hiragana: 'こうげつ', word: '虹月' },
     { hiragana: 'こうげつ', word: '恒月' },
+    { hiragana: 'ごうげつ', word: '恒月' },
 
     // モンド
     { hiragana: 'ばどるどー', word: 'バドルドー' },
@@ -156,6 +157,7 @@ export default {
     { hiragana: 'げっしん', word: '月神' },
     { hiragana: 'げつれい', word: '月霊' },
     { hiragana: 'げつずい', word: '月髄' },
+    { hiragana: 'げっきんそう', word: '月菫草' },
     { hiragana: 'きょうげつのぜん', word: '饗月の膳' },
     { hiragana: 'げっこんせき', word: '月魂石' },
     { hiragana: 'しょゆのにわ', word: '初諭の庭' },
@@ -163,6 +165,8 @@ export default {
     { hiragana: 'くーんるこうす', word: 'クーンルコウス' },
     { hiragana: 'きげつのよる', word: '祈月の夜' },
     { hiragana: 'ちょういんせき', word: '潮印石' },
+    { hiragana: 'さんぽみる', word: 'サンポ・ミル' },
+    { hiragana: 'さんぽ・みる', word: 'サンポ・ミル' },
     { hiragana: 'しきしゃのあかし', word: '識者の証' },
     { hiragana: 'ふぇい', word: 'フェイ' },
     { hiragana: 'つきのわ', word: '月の輪' },
@@ -185,5 +189,9 @@ export default {
     { hiragana: 'はくこくきし', word: '白鵠騎士' },
     { hiragana: 'まっこうのつるぎ', word: '末光の剣' },
     { hiragana: 'ごだいつみびと', word: '五大罪人' },
+    { hiragana: 'きょうよういん', word: '教養院' },
+    { hiragana: 'しんぴいん', word: '深秘院' },
+    { hiragana: 'うにべるしたすまぎすとろらむ', word: 'ウニベルシタス・マギストロラム', note: '深秘院の読み' },
+    { hiragana: 'うにべるしたす・まぎすとろらむ', word: 'ウニベルシタス・マギストロラム', note: '深秘院の読み' },
   ]
 } as DictBase;

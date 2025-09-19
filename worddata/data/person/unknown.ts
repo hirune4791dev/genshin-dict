@@ -23,6 +23,9 @@ export default {
     { hiragana: 'なべりうす', word: 'ナベリウス', note: '生の執政' },
     { hiragana: 'あすもだい', word: 'アスモダイ', note: '空の執政' },
     { hiragana: 'にーべるんげん', word: 'ニーベルンゲン' },
+    { hiragana: 'ありあ', word: 'アリア', note: '恒月の女神' },
+    { hiragana: 'そねっと', word: 'ソネット' },
+    { hiragana: 'かのん', word: 'カノン' },
     { hiragana: 'ぱいかもんねん', word: 'パイカモンネン' },
   ]
 } as DictBase;

@@ -12,6 +12,7 @@ export default {
     { hiragana: 'らうま', word: 'ラウマ' },
     { hiragana: 'やふぉだ', word: 'ヤフォダ' },
     { hiragana: 'ねふぇる', word: 'ネフェル' },
+    { hiragana: 'あしゅる', word: 'アシュル', note: '秘聞の館の猫' },
     { hiragana: 'ふりんず', word: 'フリンズ' },
     { hiragana: 'きりる', word: 'キリル', note: 'フリンズのファーストネーム' },
     { hiragana: 'ちゅーどみろゔぃっち', word: 'チュードミロヴィッチ', note: 'フリンズのミドルネーム' },
@@ -28,5 +29,7 @@ export default {
     // 主に歴史・文献に登場
     { hiragana: 'れっどみらー', word: 'レッド・ミラー' },
     { hiragana: 'れっど・みらー', word: 'レッド・ミラー' },
+    { hiragana: 'るゔぃあ', word: 'ルヴィア', note: '本当の初代詠月使' },
+    { hiragana: 'あいら', word: 'アイラ', note: '初代詠月使' },
   ]
 } as DictBase;

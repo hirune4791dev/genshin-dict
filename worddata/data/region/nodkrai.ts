@@ -20,6 +20,7 @@ export default {
     { hiragana: 'あいののいえ', word: 'アイノの家' },
     { hiragana: 'つんどらのすきま', word: 'ツンドラの隙間' },
     { hiragana: 'ぼーんもすこうげん', word: 'ボーンモス荒原' },
+    { hiragana: 'ふうしょくのこみち', word: '風蝕の小道' },
     { hiragana: 'かくされたじっけんしつ', word: '隠された実験室' },
     { hiragana: 'すたーだすとびーち', word: 'スターダストビーチ' },
     { hiragana: 'あおいこはく', word: '青い琥珀' },

@@ -28,5 +28,6 @@ export default {
     { hiragana: 'ねんそみつむし', word: '燃素ミツムシ' },
     { hiragana: 'つきほたる', word: '月蛍' },
     { hiragana: 'しーまいまい', word: 'シーマイマイ' },
+    { hiragana: 'くんくんもぐら', word: 'クンクンモグラ' },
   ]
 } as DictBase;

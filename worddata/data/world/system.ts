@@ -17,6 +17,7 @@ export default {
     { hiragana: 'でんせつにんむ', word: '伝説任務' },
     { hiragana: 'せかいにんむ', word: '世界任務' },
     { hiragana: 'いらいにんむ', word: '依頼任務' },
+    { hiragana: 'ばんげつきぶん', word: '伴月紀聞' },
 
     // 消費アイテム
     { hiragana: 'てんねんじゅし', word: '天然樹脂' },
@@ -60,6 +61,15 @@ export default {
     // 聖遺物
     { hiragana: 'かいせい', word: '廻聖' },
 
+    // コンテンツ
+    { hiragana: 'げんぎのはな', word: '幻戯の花' },
+    { hiragana: 'しゃいにんぐぶれす', word: 'シャイニングブレス' },
+    { hiragana: 'くうそうのきせき', word: '空想の軌跡' },
+    { hiragana: 'ぱふぉーまんすのこつ', word: 'パフォーマンスのコツ' },
+    { hiragana: 'ゆうきょう', word: '幽境' },
+    { hiragana: 'ゆうきょうのげきせん', word: '幽境の激戦' },
+    { hiragana: 'のんびりりょこうき', word: 'のんびり旅行記' },
+
     // 特殊システム
     { hiragana: 'やこん', word: '夜魂' },
     { hiragana: 'やこんち', word: '夜魂値' },
@@ -69,5 +79,8 @@ export default {
     { hiragana: 'へびのしちへん', word: '蛇の七変' },
     { hiragana: 'じゃのこうち', word: '蛇の狡知' },
     { hiragana: 'へびのこうち', word: '蛇の狡知', note: '「じゃのこうち」読みが正式' },
+    { hiragana: 'げっちょう', word: '月兆' },
+    { hiragana: 'しょしょう', word: '初照' },
+    { hiragana: 'まんしょう', word: '満照' },
   ]
 } as DictBase;
