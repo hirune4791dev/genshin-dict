@@ -7,13 +7,6 @@
 
 登録データについては[登録単語の一覧](./docs/dict_data.md)をご覧ください。
 
-## ダウンロード
-
-以下のページより `genshin-dictionary.zip` をダウンロードしてください。
-zipファイルを展開するとそれぞれの環境用のファイルが入っています。
-
-https://github.com/kotofurumiya/genshin-dict/releases/latest
-
 ## 対応IME
 
 | IME             | 対応ファイル                     | 備考                           |
