@@ -1,17 +1,17 @@
-import { DictItem, KotoeriHinshi, WindowsImeHinshi } from '../../worddata/dict';
+import type { DictItem, KotoeriHinshi, WindowsImeHinshi } from '../../worddata/dict.d.ts';
 
 export const expandVuHiragana = (items: DictItem[]) => {
   // "ゔ"が入力できず"ヴ"になるIMEがあるので
   // "ゔ"を"ヴ"を置き換えたものを追加する
   return items.flatMap((i) => {
     if (i.hiragana.includes('ゔ')) {
-      const replaced = {...i};
-      replaced.hiragana = replaced.hiragana.replace('ゔ', 'ヴ');
-      return [i, replaced]
+      const replaced = { ...i };
+      replaced.hiragana = replaced.hiragana.replaceAll('ゔ', 'ヴ');
+      return [i, replaced];
     }
 
-    return [i]
-  })
+    return [i];
+  });
 };
 
 export const toMacUserDict = (items: DictItem[]) => {
@@ -66,4 +66,11 @@ export const toWindowsImeDict = (items: DictItem[]) => {
     }))
     .map((item) => `${item.hiragana}\t${item.word}\t${item.hinshi}`)
     .join('\r\n');
+};
+
+// WindowsではBOMつきUTF-16を使う場合があるので、その変換関数。
+export const toUtf16BOM = (str: string): Buffer => {
+  // BOMを手動で付与するだけでok。
+  const u16leBuf = Buffer.from(`\ufeff${str}`, 'utf16le');
+  return u16leBuf;
 };

@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'ワールド',
@@ -20,9 +20,15 @@ export default {
     { hiragana: 'だいにこうりんしゃ', word: '第二降臨者' },
     { hiragana: 'だいさんこうりんしゃ', word: '第三降臨者' },
     { hiragana: 'だいよんこうりんしゃ', word: '第四降臨者' },
+    { hiragana: 'うんめいのしょっき', word: '運命の織機' },
     { hiragana: 'あぞすぶっしつ', word: 'アゾス物質' },
     { hiragana: 'へきろのいえ', word: '壁炉の家' },
     { hiragana: 'はうすおぶはーす', word: '壁炉の家' },
+    { hiragana: 'こげつのいがい', word: '古月の遺骸' },
+    { hiragana: 'そうげつ', word: '霜月' },
+    { hiragana: 'こうげつ', word: '虹月' },
+    { hiragana: 'こうげつ', word: '恒月' },
+    { hiragana: 'ごうげつ', word: '恒月' },
 
     // モンド
     { hiragana: 'ばどるどー', word: 'バドルドー' },
@@ -45,6 +51,7 @@ export default {
     { hiragana: 'しんおう', word: '神櫻' },
     { hiragana: 'しゅうまつばん', word: '終末番' },
     { hiragana: 'こまにや', word: '狛荷屋' },
+    { hiragana: 'せんじゅひゃくもくしんぞう', word: '千手百目神像' },
 
     // スメール
     { hiragana: 'きょうれいいん', word: '教令院' },
@@ -96,6 +103,7 @@ export default {
     { hiragana: 'とくじゅんたい', word: '特巡隊' },
     { hiragana: 'きょうりつてい', word: '共律庭' },
     { hiragana: 'すうりつてい', word: '枢律庭' },
+    { hiragana: 'けっとうだいりにん', word: '決闘代理人' },
     { hiragana: 'めりゅじーぬ', word: 'メリュジーヌ' },
     { hiragana: 'ふぉるとぅな', word: 'フォルトゥナ' },
     { hiragana: 'せかいしき', word: '世界式' },
@@ -112,13 +120,78 @@ export default {
     { hiragana: 'くろっくわーく・ましなりー', word: 'クロックワーク・マシナリー' },
     { hiragana: 'くろっくわーくましなりー', word: 'クロックワーク・マシナリー' },
     { hiragana: 'とくべつきょかけん', word: '特別許可券' },
+    { hiragana: 'いこる', word: 'イコル' },
+    { hiragana: 'ふぉぼす', word: 'フォボス' },
 
     // ナタ
     { hiragana: 'むらたじん', word: 'ムラタ人' },
+    { hiragana: 'むーなたじん', word: 'ムーナタ人' },
+    { hiragana: 'こめい', word: '古名' },
+    { hiragana: 'きかせいや', word: '帰火聖夜' },
+    { hiragana: 'きかせいやのじゅんれい', word: '帰火聖夜の巡礼' },
+    { hiragana: 'よじゅんしゃ', word: '夜巡者' },
+    { hiragana: 'よじゅんしゃのせんそう', word: '夜巡者の戦争' },
+    { hiragana: 'げんしゃれい', word: '幻写霊' },
+    { hiragana: 'ねんそ', word: '燃素' },
+    { hiragana: 'ねんそりゅうし', word: '燃素粒子' },
+    { hiragana: 'えきたいねんそ', word: '液体燃素' },
+    { hiragana: 'こたいねんそ', word: '固体燃素' },
+    { hiragana: 'ねんそめいこく', word: '燃素銘刻' },
+    { hiragana: 'かげぬいのはり', word: '陰縫いの針' },
+    { hiragana: 'すぴりっとうぇい', word: 'スピリットウェイ' },
+    { hiragana: 'ひげん', word: '秘源' },
+    { hiragana: 'ひげんそうち', word: '秘源装置' },
+    { hiragana: 'そうくりん', word: '双駆輪' },
+    { hiragana: 'りゅうじゅう', word: '龍従' },
+    { hiragana: 'つぃつぃみとる', word: '擬似群星' },
+    { hiragana: 'ぎじぐんせい', word: '擬似群星' },
+    { hiragana: 'しこうなるりょうしゅ', word: '至高なる領主' },
+    { hiragana: 'すいせきのほこ', word: '燧石の鉾' },
+    { hiragana: 'あしゃ', word: 'アシャ' },
+    { hiragana: 'ぴぴるぱん', word: 'ピピルパン' },
+
+    // ナド・クライ
+    { hiragana: 'くーゔぁき', word: 'クーヴァキ' },
+    { hiragana: 'くーたる', word: 'クータル' },
+    { hiragana: 'るおんのたる', word: 'ルオンノタル' },
+    { hiragana: 'げっしん', word: '月神' },
+    { hiragana: 'げつれい', word: '月霊' },
+    { hiragana: 'げつずい', word: '月髄' },
+    { hiragana: 'げっきんそう', word: '月菫草' },
+    { hiragana: 'きょうげつのぜん', word: '饗月の膳' },
+    { hiragana: 'げっこんせき', word: '月魂石' },
+    { hiragana: 'しょゆのにわ', word: '初諭の庭' },
+    { hiragana: 'えいげつのかがみ', word: '盈月の鏡' },
+    { hiragana: 'くーんるこうす', word: 'クーンルコウス' },
+    { hiragana: 'きげつのよる', word: '祈月の夜' },
+    { hiragana: 'ちょういんせき', word: '潮印石' },
+    { hiragana: 'さんぽみる', word: 'サンポ・ミル' },
+    { hiragana: 'さんぽ・みる', word: 'サンポ・ミル' },
+    { hiragana: 'しきしゃのあかし', word: '識者の証' },
+    { hiragana: 'ふぇい', word: 'フェイ' },
+    { hiragana: 'つきのわ', word: '月の輪' },
+    { hiragana: 'そうげつのこ', word: '霜月の子' },
+    { hiragana: 'えいげつし', word: '詠月使' },
+    { hiragana: 'らいときーぱー', word: 'ライトキーパー' },
+    { hiragana: 'わいるどはんと', word: 'ワイルドハント' },
+    { hiragana: 'ゔぉいにっちしょうかい', word: 'ヴォイニッチ商会' },
+    { hiragana: 'かちゃかちゃくるむかけこうぼう', word: 'カチャカチャ・クルムカケ工房' },
+    { hiragana: 'かちゃかちゃ・くるむかけこうぼう', word: 'カチャカチャ・クルムカケ工房' },
 
     // スネージナヤ
     { hiragana: 'ふぁでゅい', word: 'ファデュイ' },
     { hiragana: 'ふぁとぅす', word: 'ファトゥス' },
 
+    // カーンルイア
+    { hiragana: 'せきげつおうちょう', word: '赤月王朝' },
+    { hiragana: 'こくじつおうちょう', word: '黒日王朝' },
+    // { hiragana: 'こくじゃきし', word: '黒蛇騎士' },
+    { hiragana: 'はくこくきし', word: '白鵠騎士' },
+    { hiragana: 'まっこうのつるぎ', word: '末光の剣' },
+    { hiragana: 'ごだいつみびと', word: '五大罪人' },
+    { hiragana: 'きょうよういん', word: '教養院' },
+    { hiragana: 'しんぴいん', word: '深秘院' },
+    { hiragana: 'うにべるしたすまぎすとろらむ', word: 'ウニベルシタス・マギストロラム', note: '深秘院の読み' },
+    { hiragana: 'うにべるしたす・まぎすとろらむ', word: 'ウニベルシタス・マギストロラム', note: '深秘院の読み' },
   ]
 } as DictBase;

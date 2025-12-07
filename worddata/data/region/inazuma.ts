@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: '地域',
@@ -19,6 +19,8 @@ export default {
     { hiragana: 'いなずまじょう', word: '稲妻城' },
     { hiragana: 'こもれちゃや', word: '木漏茶屋' },
     { hiragana: 'やえどう', word: '八重堂' },
+    { hiragana: 'あいさせんとう', word: '秋沙銭湯' },
+    { hiragana: 'あきさせんとう', word: '秋沙銭湯', note: '公式読みは「あいさせんとう」' },
 
     // 神無塚
     { hiragana: 'かんなづか', word: '神無塚' },
@@ -39,7 +41,7 @@ export default {
     // 海祇島
     { hiragana: 'わたつみじま', word: '海祇島' },
     { hiragana: 'すいげつち', word: '水月池' },
-    { hiragana: 'さんごのみや', word: '珊瑚宮' },
+    // { hiragana: 'さんごのみや', word: '珊瑚宮' }, // 心海の名字と重複するので除外
     { hiragana: 'もううんじんじゃ', word: '曚雲神社' },
     { hiragana: 'ぼうろうむら', word: '望瀧村' },
 

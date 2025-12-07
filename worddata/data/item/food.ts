@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'アイテム',
@@ -7,5 +7,6 @@ export default {
   items: [
     { hiragana: 'せんちょうしょう', word: '仙跳牆' },
     { hiragana: 'ちこざかな', word: 'チ虎魚' },
+    { hiragana: 'くるむかけ', word: 'クルムカケ' },
   ]
 } as DictBase;

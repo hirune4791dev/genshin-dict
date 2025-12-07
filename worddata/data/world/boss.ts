@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'ワールド',
@@ -36,9 +36,29 @@ export default {
     { hiragana: 'ひょうふうくみきょく', word: '氷風組曲' },
     { hiragana: 'てっこうようえんていおう', word: '鉄甲熔炎帝王' },
     { hiragana: 'じっけんようふぃーるどせいせいそうち', word: '実験用フィールド生成装置' },
+    { hiragana: 'かいしゅん', word: '海駿' },
     { hiragana: 'せんねんしんじゅのかいしゅん', word: '千年真珠の海駿' },
     { hiragana: 'すいけいたるぱ', word: '水形タルパ' },
     { hiragana: 'どんせいのくじら', word: '呑星の鯨' },
     { hiragana: 'ごくあくき', word: '極悪騎' },
+    { hiragana: 'げいじゅう', word: '猊獣' },
+    { hiragana: 'やまがくれのげいじゅう', word: '山隠れの猊獣' },
+    { hiragana: 'れがとぅす', word: 'レガトゥス' },
+    { hiragana: 'まぞうれがとぅす', word: '魔像レガトゥス' },
+    { hiragana: 'きんえんのくくりゅう', word: '金焔のクク竜' },
+    { hiragana: 'ほらわいがんごうぼう', word: 'ホラワイガ・ンゴウボウ' },
+    { hiragana: 'ほらわいが・んごうぼう', word: 'ホラワイガ・ンゴウボウ' },
+    { hiragana: 'どんしょくのゆむかりゅう', word: '貪食のユムカ竜' },
+    { hiragana: 'こんがまとー', word: 'コンガマトー' },
+    { hiragana: 'みみっくぱぴら', word: 'ミミックパピラ' },
+    { hiragana: 'しんえんなるみみっくぱぴら', word: '深遠なるミミックパピラ' },
+    { hiragana: 'ぐーしぃとーす', word: 'グーシィ・トース' },
+    { hiragana: 'ぐーしぃ・とーす', word: 'グーシィ・トース' },
+    { hiragana: 'げんえんのあるじ', word: '源焔の主' },
+    { hiragana: 'むしばまれしげんえんのあるじ', word: '蝕まれし源焔の主' },
+    { hiragana: 'ばくなわ', word: 'バクナワ' },
+    { hiragana: 'ぼこぼこだっく', word: 'ボコボコダック' },
+    { hiragana: 'めかだっく', word: 'メカダック' },
+    { hiragana: 'しゅうこうのげんげつちょう', word: '集光の幻月蝶' },
   ]
 } as DictBase;

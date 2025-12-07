@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'ワールド',
@@ -19,5 +19,15 @@ export default {
     { hiragana: 'めいさいちょう', word: '暝彩鳥' },
     { hiragana: 'てんとがめ', word: 'テントガメ' },
     { hiragana: 'ぷくぷくじゅう', word: 'プクプク獣' },
+    { hiragana: 'てぺとるりゅう', word: 'テペトル竜' },
+    { hiragana: 'ゆむかりゅう', word: 'ユムカ竜' },
+    { hiragana: 'こほらりゅう', word: 'コホラ竜' },
+    { hiragana: 'らいのりゅう', word: 'ライノ竜' },
+    { hiragana: 'くくりゅう', word: 'クク竜' },
+    { hiragana: 'いくとみりゅう', word: 'イクトミ竜' },
+    { hiragana: 'ねんそみつむし', word: '燃素ミツムシ' },
+    { hiragana: 'つきほたる', word: '月蛍' },
+    { hiragana: 'しーまいまい', word: 'シーマイマイ' },
+    { hiragana: 'くんくんもぐら', word: 'クンクンモグラ' },
   ]
 } as DictBase;

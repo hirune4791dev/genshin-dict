@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'ワールド',
@@ -76,5 +76,33 @@ export default {
     { hiragana: 'まんまるたこ', word: 'マンマルタコ' },
     { hiragana: 'あんじぇりっくあぷりしあ', word: 'アンジェリックアプリシア' },
     { hiragana: 'ちぇるびっくあぷりしあ', word: 'チェルビックアプリシア' },
+    { hiragana: 'げんもんじゅう', word: '玄文獣' },
+    { hiragana: 'げんぶんじゅう', word: '玄文獣' },
+    { hiragana: 'まぞう', word: '魔像' },
+    { hiragana: 'ぷらえとりあに', word: 'プラエトリアニ' },
+    { hiragana: 'まぞうぷらえとりあに', word: '魔像プラエトリアニ' },
+    { hiragana: 'ひげんきへい', word: '秘源機兵' },
+    { hiragana: 'みみっくふろーら', word: 'ミミックフローラ' },
+    { hiragana: 'しんえんなるみみっくふろーら', word: '深遠なるミミックフローラ' },
+    { hiragana: 'かにこうてい', word: 'カニ皇帝' },
+    { hiragana: 'けいれいしゃ', word: '継霊者' },
+    { hiragana: 'しもよのけいれいしゃ', word: '霜夜の継霊者' },
+    { hiragana: 'わんだらー', word: 'ワンダラー' },
+    { hiragana: 'わいるどわんだらー', word: 'ワイルド・ワンダラー' },
+    { hiragana: 'わいるど・わんだらー', word: 'ワイルド・ワンダラー' },
+    { hiragana: 'まっどうぉーりあー', word: 'マッドウォーリアー' },
+    { hiragana: 'わいるどまっどうぉーりあー', word: 'ワイルド・マッドウォーリアー' },
+    { hiragana: 'わいるど・まっどうぉーりあー', word: 'ワイルド・マッドウォーリアー' },
+    { hiragana: 'ふぁでゅいとくむたい', word: 'ファデュイ特務隊' },
+    { hiragana: 'ふぁいあーぶれいど', word: 'ファイアーブレイド' },
+    { hiragana: 'へいるすとーむ', word: 'ヘイルストーム' },
+    { hiragana: 'さんだーぶりっつ', word: 'サンダーブリッツ' },
+    { hiragana: 'りくじゅんてい', word: '陸巡艇' },
+    { hiragana: 'げんよう', word: '幻羊' },
+    { hiragana: 'しゅうこうのげんよう', word: '集光の幻羊' },
+    { hiragana: 'ぶれいどらいの', word: 'ブレイドライノ' },
+    { hiragana: 'しゅうこうのぶれいどらいの', word: '集光のブレイドライノ' },
+    { hiragana: 'らせんだこ', word: '螺旋蛸' },
+    { hiragana: 'しゅうこうのらせんだこ', word: '集光の螺旋蛸' },
   ]
 } as DictBase;

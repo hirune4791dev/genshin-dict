@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: '人物',
@@ -16,10 +16,17 @@ export default {
     { hiragana: 'ころんびーな', word: 'コロンビーナ' },
     { hiragana: 'ぷるちねっら', word: 'プルチネッラ' },
     { hiragana: 'あるれっきーの', word: 'アルレッキーノ' },
+    { hiragana: 'ぺるゔぇーれ', word: 'ペルヴェーレ', note: 'アルレッキーノの本名' },
+    { hiragana: 'ぺるゔぃ', word: 'ペルヴィ', note: 'アルレッキーノの本名の愛称' },
     { hiragana: 'さんどろーね', word: 'サンドローネ' },
+    { hiragana: 'ぷろんにあ', word: 'プロンニア' },
     { hiragana: 'かぴたーの', word: 'カピターノ' },
+    { hiragana: 'すらーいん', word: 'スラーイン', note: '隊長の本名' },
     { hiragana: 'どっとーれ', word: 'ドットーレ' },
     
     // 主に歴史・文献に登場
+    { hiragana: 'べーるい', word: 'ベールイ' },
+    { hiragana: 'つぁーりべーるい', word: 'ツァーリ・ベールイ' }, // ツァーリ（皇帝）の意で名前ではないと思うが一応記載
+    { hiragana: 'つぁーり・べーるい', word: 'ツァーリ・ベールイ' },
   ]
 } as DictBase;

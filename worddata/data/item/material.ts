@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: 'アイテム',
@@ -16,6 +16,7 @@ export default {
     { hiragana: 'れつえんか', word: '烈焔花' },
     { hiragana: 'れつえんばな', word: '烈焔花' },
     { hiragana: 'げいしょうばな', word: '霓裳花' },
+    { hiragana: 'るりぶくろ', word: '琉璃袋' },
     { hiragana: 'せいら', word: '星螺' },
     { hiragana: 'ひおうきゅう', word: '緋櫻毬' },
     { hiragana: 'なぐさ', word: '鳴草' },
@@ -53,6 +54,27 @@ export default {
     { hiragana: 'たんそくゆにっと', word: '探測ユニット' },
     { hiragana: 'ここうのすずらん', word: '湖光の鈴蘭' },
     { hiragana: 'はつつゆのみなもと', word: '初露の源' },
+    { hiragana: 'ちんぎょくせんちゃ', word: '沈玉仙茶' },
+    { hiragana: 'なみしぶきのえら', word: '波しぶきのエラ' },
+    { hiragana: 'しゃくぎく', word: 'シャクギク' },
+    { hiragana: 'けねぱべりー', word: 'ケネパベリー' },
+    { hiragana: 'さうりあんさきゅれんと', word: 'サウリアンサキュレント' },
+    { hiragana: 'しょこあとぅるのたね', word: 'ショコアトゥルの種' },
+    { hiragana: 'えんばーこあふらわー', word: 'エンバーコアフラワー' },
+    { hiragana: 'きゃんどるきのこ', word: 'キャンドルキノコ' },
+    { hiragana: 'ぐれいんのみ', word: 'グレインの実' },
+    { hiragana: 'すぴねるのみ', word: 'スピネルの実' },
+    { hiragana: 'けいこうつのきのこ', word: '蛍光ツノキノコ' },
+    { hiragana: 'かれししょう', word: '枯れ紫菖' },
+    { hiragana: 'がんれつのはな', word: '岩裂の花' },
+    { hiragana: 'りゅうりんせき', word: '琉鱗石' },
+    { hiragana: 'けいこうがたべありんぐ', word: '携行型ベアリング' },
+    { hiragana: 'ふろすとらんぷ', word: 'フロストランプ' },
+    { hiragana: 'げつらくぎん', word: '月落銀' },
+    { hiragana: 'ほわいとべりー', word: 'ホワイトベリー' },
+    { hiragana: 'そまるのみ', word: 'ソマルの実' },
+    { hiragana: 'かんぱせき', word: '寒波石' },
+    { hiragana: 'しゅくえいか', word: '宿影花' },
 
     // 雑魚素材/ボス素材
     { hiragana: 'まぐうのしん', word: '魔偶の芯' },
@@ -64,6 +86,9 @@ export default {
     { hiragana: 'そうきんかく', word: '壮菌核' },
     { hiragana: 'とぅーるびよんそうち', word: 'トゥールビヨン装置' },
     { hiragana: 'げんかいしゅんのつの', word: '原海駿の角' },
+    { hiragana: 'ひげんのべありんぐ', word: '秘源のベアリング' },
+    { hiragana: 'ひげんのしーす', word: '秘源のシース' },
+    { hiragana: 'ひげんのこあ', word: '秘源のコア' },
 
     // 鉱物
     { hiragana: 'せきはく', word: '石珀' },
@@ -73,12 +98,16 @@ export default {
     { hiragana: 'さんぐいと', word: 'サングイト' },
     { hiragana: 'すいぎょうしょう', word: '萃凝晶' },
     { hiragana: 'そうしょうら', word: '蒼晶螺' },
+    { hiragana: 'せいすいぎょく', word: '清水玉' },
+    { hiragana: 'にじけっしょう', word: '虹結晶' },
 
     // 強化用
     { hiragana: 'まこう', word: '魔鉱' },
     { hiragana: 'きせい', word: '祈聖' },
     { hiragana: 'きせいのおいる', word: '祈聖のオイル' },
     { hiragana: 'きせいのえきす', word: '祈聖のエキス' },
+    { hiragana: 'きせいのえりくしる', word: '祈聖のエリクシル' },
+    { hiragana: 'せいごんのたいぷらいたー', word: '聖言のタイプライター' },
     { hiragana: 'ちえのかんむり', word: '知恵の冠' },
 
     // 木材
@@ -96,6 +125,23 @@ export default {
     { hiragana: 'ごうかざい', word: '業果材' },
     { hiragana: 'しょうござい', word: '証悟材' },
     { hiragana: 'たまりすくざい', word: 'タマリスク材' },
+    { hiragana: 'まろうざい', word: 'マロウ材' },
     { hiragana: 'やしざい', word: 'ヤシ材' },
+    { hiragana: 'ぼだいじゅざい', word: '菩提樹材' },
+    { hiragana: 'ほわいとあっしゅざい', word: 'ホワイトアッシュ材' },
+    { hiragana: 'こうはくじゅざい', word: 'コウハクジュ材' },
+    { hiragana: 'とーちざい', word: 'トーチ材' },
+    { hiragana: 'ほわいとおーくざい', word: 'ホワイトオーク材' },
+    { hiragana: 'あっしぇんろりにあざい', word: 'アッシェンロリニア材' },
+    { hiragana: 'ふれいむぼむざい', word: 'フレイムボム材' },
+    { hiragana: 'ぴーちここなっつざい', word: 'ピーチココナッツ材' },
+
+    // イベントアイテムなど
+    { hiragana: 'おうようせき', word: '黄曜石' },
+    { hiragana: 'こうようせき', word: '黄曜石' },
+    { hiragana: 'りょくようせき', word: '緑曜石' },
+    { hiragana: 'らんようせき', word: '藍曜石' },
+    { hiragana: 'せきようせき', word: '赤曜石' },
+    { hiragana: 'しようせき', word: '紫曜石' },
   ]
 } as DictBase;

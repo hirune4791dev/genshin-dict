@@ -7,22 +7,16 @@
   "private": true,
   "scripts": {
     "format": "prettier --write \"scripts/**/*.ts\"",
-    "build": "node --import ./scripts/tsnode-register.mjs scripts/build.ts",
-    "releasenote:gen": "node --import ./scripts/tsnode-register.mjs scripts/generate_release.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/build.ts",
+    "releasenote:gen": "node scripts/generate_release.ts",
+    "test": "node --test"
   },
   "keywords": [],
   "author": "Koto Furumiya <kotofurumiya@gmail.com>",
   "license": "Zlib",
   "devDependencies": {
-    "@types/glob": "^8.1.0",
-    "@types/node": "^20.12.7",
-    "prettier": "^3.2.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "glob": "^10.3.12",
-    "iconv-lite": "^0.6.3"
+    "@types/node": "^24.5.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
   }
 }

@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: '人物',
@@ -6,11 +6,69 @@ export default {
   hinshi: '人名',
   items: [
     // 実装済み・実装予定プレイアブル関係
+    { hiragana: 'むあらに', word: 'ムアラニ' },
+    { hiragana: 'かちーな', word: 'カチーナ' },
+    { hiragana: 'きぃにち', word: 'キィニチ' },
+    { hiragana: 'しとらり', word: 'シトラリ' },
+    { hiragana: 'しとらりん', word: 'シトラリン' },
+    { hiragana: 'いつぱぱ', word: 'イツパパ' },
+    { hiragana: 'しろねん', word: 'シロネン' },
     { hiragana: 'いあんさ', word: 'イアンサ' },
+    { hiragana: 'ちゃすか', word: 'チャスカ' },
+    { hiragana: 'まーゔぃか', word: 'マーヴィカ' },
+    { hiragana: 'おろるん', word: 'オロルン' },
+    { hiragana: 'いふぁ', word: 'イファ' },
+    { hiragana: 'ゔぁれさ', word: 'ヴァレサ' },
 
     // ゲーム中や漫画に登場するキャラクター
+    { hiragana: 'あはう', word: 'アハウ' },
+    { hiragana: 'くふるあはう', word: 'クフル・アハウ' },
+    { hiragana: 'くふる・あはう', word: 'クフル・アハウ' },
+    { hiragana: 'いれーる', word: 'イレール' },
+    { hiragana: 'くいく', word: 'クイク' },
+    { hiragana: 'ひね', word: 'ヒネ' },
+    { hiragana: 'ぱかる', word: 'パカル', note:'こだまの子の族長' },
+    { hiragana: 'わいな', word: 'ワイナ', note:'懸木の民の族長' },
+    { hiragana: 'あみな', word: 'アミナ', note:'流泉の衆の族長' },
+    { hiragana: 'びらむ', word: 'ビラム', note:'謎煙の主の族長' },
+    { hiragana: 'むとた', word: 'ムトタ', note:'花翼の集の族長' },
+    { hiragana: 'あろに', word: 'アロニ', note:'ベネットの母' },
+    { hiragana: 'まかんに', word: 'マカンニ', note:'ベネットの父' },
 
     // 主に歴史・文献に登場
-    
+    { hiragana: 'しゅばらんけ', word: 'シュバランケ' },
+    { hiragana: 'わしゃくらふんうばかん', word: 'ワシャクラフン・ウバ・カン' },
+    { hiragana: 'わしゃくらふん・うば・かん', word: 'ワシャクラフン・ウバ・カン' },
+    { hiragana: 'とうえんのけんじゃ', word: '盗炎の賢者' },
+    { hiragana: 'しうこあとる', word: 'シウコアトル' },
+    { hiragana: 'ゆぱんき', word: 'ユパンキ' },
+    { hiragana: 'とうえんしゃ', word: '盗炎者', note: 'ユパンキのこと。ウバカンとは無関係' },
+    { hiragana: 'ちゃあく', word: 'チャアク' },
+    { hiragana: 'おちかん', word: 'オチカン' },
+    { hiragana: 'てのっち', word: 'テノッチ' },
+    { hiragana: 'てのよろちん', word: 'テノヨロチン' },
+    { hiragana: 'とぅぱっく', word: 'トゥパック', note: '500年前の流泉の衆の英雄' },
+    { hiragana: 'めねりく', word: 'メネリク', note: '500年前の花翼の集の英雄' },
+    { hiragana: 'すんじゃた', word: 'スンジャタ', note: '500年前のこだまの子の英雄' },
+    { hiragana: 'わんじる', word: 'ワンジル', note: '500年前の豊穣の邦の英雄' },
+    { hiragana: 'さんはじ', word: 'サンハジ', note: '500年前の謎煙の主の英雄' },
+    { hiragana: 'さんはじこんぽれ', word: 'サンハジ・コンポレ', note: '500年前の謎煙の主の英雄' },
+    { hiragana: 'さんはじ・こんぽれ', word: 'サンハジ・コンポレ', note: '500年前の謎煙の主の英雄' },
+    { hiragana: 'ぶるきな', word: 'ブルキナ', note: '500年前の懸木の民の英雄' },
+    { hiragana: 'うぃつぃりん', word: 'ウィツィリン' },
+    { hiragana: 'りあんか', word: 'リアンカ' },
+    { hiragana: 'いき', word: 'イキ' },
+    { hiragana: 'のちてぃ', word: 'ノチティ' },
+
+    // 古名
+    { hiragana: 'きおんごずぃ', word: 'キオンゴズィ', note: '「指導者」の古名' },
+    { hiragana: 'うっさびーてぃ', word: 'ウッサビーティ', note: '「不屈」の古名' },
+    { hiragana: 'うもじゃ', word: 'ウモジャ', note: '「団結」の古名' },
+    { hiragana: 'まりぽ', word: 'マリポ', note: '「廻炎」の古名' },
+    { hiragana: 'ばれか', word: 'バレカ', note: '「祝福」の古名' },
+    { hiragana: 'ゔーか', word: 'ヴーカ', note: '「超越」の古名' },
+    { hiragana: 'びでぃー', word: 'ビディー', note: '「献身」の古名' },
+    { hiragana: 'ううぃーぞ', word: 'ウウィーゾ', note: '「力」の古名' },
+    { hiragana: 'とぅまいに', word: 'トゥマイニ', note: '「希望」の古名' },
   ]
 } as DictBase;

@@ -1,4 +1,4 @@
-import { DictBase } from '../../dict';
+import type { DictBase } from '../../dict.d.ts';
 
 export default {
   category: '地域',
@@ -7,5 +7,8 @@ export default {
   items: [
     { hiragana: 'すねーじなや', word: 'スネージナヤ' },
     { hiragana: 'すねーじなやぱれす', word: 'スネージナヤパレス' },
+
+    // 古代
+    { hiragana: 'ひゅぺるぼれいあ', word: 'ヒュペルボレイア' },
   ]
 } as DictBase;
