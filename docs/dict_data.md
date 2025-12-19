@@ -2,7 +2,7 @@
 
 |カテゴリ|登録数|
 |---|--:|
-|[ワールド/ボスエネミー](./dict/world/boss.md)|55|
+|[ワールド/ボスエネミー](./dict/world/boss.md)|57|
 |[ワールド/七聖召喚](./dict/world/cardgame.md)|20|
 |[ワールド/生き物](./dict/world/creature.md)|24|
 |[ワールド/エネミー](./dict/world/enemy.md)|99|
@@ -25,7 +25,7 @@
 |[地域/層岩巨淵](./dict/region/the_chasm.md)|14|
 |[人物/フォンテーヌ](./dict/person/fontaine.md)|36|
 |[人物/稲妻](./dict/person/inazuma.md)|50|
-|[人物/カーンルイア](./dict/person/khaenriah.md)|16|
+|[人物/カーンルイア](./dict/person/khaenriah.md)|18|
 |[人物/璃月](./dict/person/liyue.md)|52|
 |[人物/モンド](./dict/person/mondstadt.md)|50|
 |[人物/ナタ](./dict/person/natlan.md)|59|

@@ -736,6 +736,12 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>イルミンズール</string>
+  <key>shortcut</key>
+  <string>いるみんずーる</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>イレール</string>
   <key>shortcut</key>
   <string>いれーる</string>
@@ -3712,6 +3718,12 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>霜夜の空を巡る霊主</string>
+  <key>shortcut</key>
+  <string>しもよのそらをめぐるれいしゅ</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>シャール・フィンドニール</string>
   <key>shortcut</key>
   <string>しゃーる・ふぃんどにーる</string>
@@ -4945,6 +4957,12 @@
   <string>ソマルの実</string>
   <key>shortcut</key>
   <string>そまるのみ</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>ソリンディス</string>
+  <key>shortcut</key>
+  <string>そりんでぃす</string>
 </dict>
 <dict>
   <key>phrase</key>
@@ -8761,6 +8779,12 @@
   <string>霊谷木</string>
   <key>shortcut</key>
   <string>れいこくぼく</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>霊主</string>
+  <key>shortcut</key>
+  <string>れいしゅ</string>
 </dict>
 <dict>
   <key>phrase</key>

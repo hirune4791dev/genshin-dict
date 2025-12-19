@@ -9,15 +9,17 @@ export default {
 
     // ゲーム中や漫画に登場するキャラクター
     { hiragana: 'こくおう', word: '黒王' },
+    { hiragana: 'いるみん', word: 'イルミン' },
+    { hiragana: 'いるみんずーる', word: 'イルミンズール' },
     { hiragana: 'だいんすれいゔ', word: 'ダインスレイヴ' },
     { hiragana: 'はーるゔだん', word: 'ハールヴダン' },
     { hiragana: 'はーでん', word: 'ハーデン', note: 'ダインスレイヴの師' },
-    { hiragana: 'いるみん', word: 'イルミン' },
     { hiragana: 'ふろぷたちゅーる', word: 'フロプタチュール', note: '五大罪人の「賢者」' },
     { hiragana: 'するとろっち', word: 'スルトロッチ', note: '五大罪人の「極悪騎」' },
     { hiragana: 'ゔぇずるふぇるにる', word: 'ヴェズルフェルニル', note: '五大罪人の「予言者」' },
     { hiragana: 'れいんどっと', word: 'レインドット', note: '五大罪人の「黄金」' },
     { hiragana: 'れりる', word: 'レリル', note: '五大罪人の「月の狩人」' },
+    { hiragana: 'そりんでぃす', word: 'ソリンディス' },
     { hiragana: 'ぐすれっど', word: 'グスレッド', note: '隊長の部下' },
     { hiragana: 'すくふぬーが', word: 'スクフヌーガ', note: 'スルトロッチの友人' },
 
