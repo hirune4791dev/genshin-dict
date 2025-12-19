@@ -14,6 +14,9 @@ export default {
     { hiragana: 'しにょーら', word: 'シニョーラ' },
     { hiragana: 'ぴえろ', word: 'ピエロ' },
     { hiragana: 'ころんびーな', word: 'コロンビーナ' },
+    { hiragana: 'はいぽせれにあ', word: 'ハイポセレニア' },
+    { hiragana: 'ころんびーなはいぽせれにあ', word: 'コロンビーナ・ハイポセレニア' },
+    { hiragana: 'ころんびーな・はいぽせれにあ', word: 'コロンビーナ・ハイポセレニア' },
     { hiragana: 'ぷるちねっら', word: 'プルチネッラ' },
     { hiragana: 'あるれっきーの', word: 'アルレッキーノ' },
     { hiragana: 'ぺるゔぇーれ', word: 'ペルヴェーレ', note: 'アルレッキーノの本名' },
@@ -23,10 +26,15 @@ export default {
     { hiragana: 'かぴたーの', word: 'カピターノ' },
     { hiragana: 'すらーいん', word: 'スラーイン', note: '隊長の本名' },
     { hiragana: 'どっとーれ', word: 'ドットーレ' },
+    { hiragana: 'ざんでぃく', word: 'ザンディク', note: '博士の本名' },
     
     // 主に歴史・文献に登場
     { hiragana: 'べーるい', word: 'ベールイ' },
     { hiragana: 'つぁーりべーるい', word: 'ツァーリ・ベールイ' }, // ツァーリ（皇帝）の意で名前ではないと思うが一応記載
     { hiragana: 'つぁーり・べーるい', word: 'ツァーリ・ベールイ' },
+    { hiragana: 'あなすたーしゃ', word: 'アナスターシャ' },
+    { hiragana: 'ふょーどろゔな', word: 'フョードロヴナ' },
+    { hiragana: 'あなすたーしゃふょーどろゔなすねーじなや', word: 'アナスターシャ・フョードロヴナ・スネージナヤ' },
+    { hiragana: 'あなすたーしゃ・ふょーどろゔな・すねーじなや', word: 'アナスターシャ・フョードロヴナ・スネージナヤ' },
   ]
 } as DictBase;

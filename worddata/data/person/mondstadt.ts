@@ -52,6 +52,7 @@ export default {
     { hiragana: 'てぃみー', word: 'ティミー' },
     { hiragana: 'えりん', word: 'エリン' },
     { hiragana: 'つぁれーゔぃち', word: 'ツァレーヴィチ' },
+    { hiragana: 'ろーえん', word: 'ローエン' },
 
     // 主に歴史・文献に登場
     { hiragana: 'えばはーと', word: 'エバハート' },

@@ -172,6 +172,36 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>アナスターシャ</string>
+  <key>shortcut</key>
+  <string>あなすたーしゃ</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>アナスターシャ・フョードロヴナ・スネージナヤ</string>
+  <key>shortcut</key>
+  <string>あなすたーしゃ・ふょーどろゔな・すねーじなや</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>アナスターシャ・フョードロヴナ・スネージナヤ</string>
+  <key>shortcut</key>
+  <string>あなすたーしゃ・ふょーどろヴな・すねーじなや</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>アナスターシャ・フョードロヴナ・スネージナヤ</string>
+  <key>shortcut</key>
+  <string>あなすたーしゃふょーどろゔなすねーじなや</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>アナスターシャ・フョードロヴナ・スネージナヤ</string>
+  <key>shortcut</key>
+  <string>あなすたーしゃふょーどろヴなすねーじなや</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>アパーム叢林</string>
   <key>shortcut</key>
   <string>あぱーむそうりん</string>
@@ -691,6 +721,12 @@
   <string>依頼任務</string>
   <key>shortcut</key>
   <string>いらいにんむ</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>イルーガ</string>
+  <key>shortcut</key>
+  <string>いるーが</string>
 </dict>
 <dict>
   <key>phrase</key>
@@ -3178,6 +3214,18 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>コロンビーナ・ハイポセレニア</string>
+  <key>shortcut</key>
+  <string>ころんびーな・はいぽせれにあ</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>コロンビーナ・ハイポセレニア</string>
+  <key>shortcut</key>
+  <string>ころんびーなはいぽせれにあ</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>コンガマトー</string>
   <key>shortcut</key>
   <string>こんがまとー</string>
@@ -3379,6 +3427,12 @@
   <string>サンダーブリッツ</string>
   <key>shortcut</key>
   <string>さんだーぶりっつ</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>ザンディク</string>
+  <key>shortcut</key>
+  <string>ざんでぃく</string>
 </dict>
 <dict>
   <key>phrase</key>
@@ -6226,6 +6280,12 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>ハイポセレニア</string>
+  <key>shortcut</key>
+  <string>はいぽせれにあ</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>パイン峠</string>
   <key>shortcut</key>
   <string>ぱいんとうげ</string>
@@ -6736,6 +6796,12 @@
 </dict>
 <dict>
   <key>phrase</key>
+  <string>フィエテナ</string>
+  <key>shortcut</key>
+  <string>ふぃえてな</string>
+</dict>
+<dict>
+  <key>phrase</key>
   <string>フィッシュル</string>
   <key>shortcut</key>
   <string>ふぃっしゅる</string>
@@ -6925,6 +6991,18 @@
   <string>不滅の月華</string>
   <key>shortcut</key>
   <string>ふめつのげっか</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>フョードロヴナ</string>
+  <key>shortcut</key>
+  <string>ふょーどろゔな</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>フョードロヴナ</string>
+  <key>shortcut</key>
+  <string>ふょーどろヴな</string>
 </dict>
 <dict>
   <key>phrase</key>
@@ -8791,6 +8869,12 @@
   <string>ローエファルタ</string>
   <key>shortcut</key>
   <string>ろーえふぁるた</string>
+</dict>
+<dict>
+  <key>phrase</key>
+  <string>ローエン</string>
+  <key>shortcut</key>
+  <string>ろーえん</string>
 </dict>
 <dict>
   <key>phrase</key>

@@ -59,6 +59,7 @@ export default {
     { hiragana: 'りあんか', word: 'リアンカ' },
     { hiragana: 'いき', word: 'イキ' },
     { hiragana: 'のちてぃ', word: 'ノチティ' },
+    { hiragana: 'ふぃえてな', word: 'フィエテナ' },
 
     // 古名
     { hiragana: 'きおんごずぃ', word: 'キオンゴズィ', note: '「指導者」の古名' },

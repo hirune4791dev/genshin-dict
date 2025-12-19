@@ -27,10 +27,10 @@
 |[人物/稲妻](./dict/person/inazuma.md)|50|
 |[人物/カーンルイア](./dict/person/khaenriah.md)|16|
 |[人物/璃月](./dict/person/liyue.md)|52|
-|[人物/モンド](./dict/person/mondstadt.md)|49|
-|[人物/ナタ](./dict/person/natlan.md)|58|
-|[人物/ナド・クライ](./dict/person/nodkrai.md)|21|
-|[人物/スネージナヤ](./dict/person/snezhnaya.md)|18|
+|[人物/モンド](./dict/person/mondstadt.md)|50|
+|[人物/ナタ](./dict/person/natlan.md)|59|
+|[人物/ナド・クライ](./dict/person/nodkrai.md)|22|
+|[人物/スネージナヤ](./dict/person/snezhnaya.md)|26|
 |[人物/スメール](./dict/person/sumeru.md)|47|
 |[人物/不明](./dict/person/unknown.md)|17|
 |[アイテム/聖遺物](./dict/item/artifact.md)|12|
