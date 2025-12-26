@@ -60,5 +60,7 @@ export default {
     { hiragana: 'ぼこぼこだっく', word: 'ボコボコダック' },
     { hiragana: 'めかだっく', word: 'メカダック' },
     { hiragana: 'しゅうこうのげんげつちょう', word: '集光の幻月蝶' },
+    { hiragana: 'れいしゅ', word: '霊主' },
+    { hiragana: 'しもよのそらをめぐるれいしゅ', word: '霜夜の空を巡る霊主' },
   ]
 } as DictBase;
