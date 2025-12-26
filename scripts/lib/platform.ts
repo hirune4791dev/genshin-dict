@@ -42,7 +42,7 @@ export const toKotoeriDict = (items: DictItem[]) => {
 };
 export const toBouyomiDict = (items: DictItem[]) => {
   return items
-    .map((item) => `2\tN\t${item.word}\t${item.hiragana}`)
+    .map((item) => `20\tN\t${item.word}\t${item.hiragana}`)
     .join('\r\n');
 };
 
